@@ -5,12 +5,16 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
+
+
 export default function Home() {
   return (
     <>
-      <div className="verflow-visible bg-contain bg-center h-128 rounded-md border-y-4 border-gray-600">
+   
+      <div className="verflow-visible bg-contain bg-center h-128 rounded-md border-y-4  border-grey-600 max-md:h-32">
         <Image
-          className="h-full w-full"
+          className="h-full w-full max-md:h-32"
           src="/background.jpg"
           alt="Vercel Logo"
           width={1800}
@@ -18,9 +22,9 @@ export default function Home() {
           priority
         />
       </div>
-      <div className="max-md:ml-1 -mt-44 verflow-visible ml-12 flex items-center justify-start rounded-lg max-[880px]:flex-col  ">
+      <div className=" max-md:ml-1 -mt-44 verflow-visible ml-12 flex items-center justify-start rounded-lg max-[880px]:flex-col max-[880px]:-mt-16 ">
         <Image
-          className="rounded-full z-10"
+          className="rounded-full z-10 max-md:h-48 max-md:w-48" // h-full w-full max-md:h-12 max-md:w-34 " 
           src="/dp.jpeg"
           alt="Vercel Logo"
           width={550}
@@ -33,7 +37,7 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="">
+      <div className="max-md:ml-4 mr-4">
         <div className="max-[880px]:justify-center drop-shadow-2xl mt-12 w-3/4 bg-slate-100 ml-12 font-sans text-4xl leading-tight rounded-md border-gray-300 border-y-4 max-md:ml-1">
           <div className="bg-slate-600 py-4 px-4  ">
             <h1 className="text-gray-400 rounded-xl">About</h1>
@@ -116,13 +120,13 @@ export default function Home() {
           </li>{" "}
         </ul>
 
-        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-12 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
+        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-4 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
           <div className="bg-slate-600 flex items-center justify-center ">
             <h2 className="text-gray-400 rounded-xl text-4xl"> Brief</h2> <br />
           </div>
-          <div className="py-4 px-4 max-[570px]:text-2xl max-[570px]:m-4  ">
+          <div className="py-4 px-4 max-[570px]:text-2xl max-[570px]:m-4 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100">
           &nbsp;&nbsp;&nbsp;&nbsp; Hello, my name is Qaisar and I am a full-stack
-            <strong>Blockchain</strong> developer. <br /> I am passionate about using
+            <strong> Blockchain</strong> developer. <br /> I am passionate about using
             my coding skills to solve complex problems and create innovative
             solutions. <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;As a developer, I have experience in a variety of
             programming languages and technologies, and I am always eager to
@@ -191,7 +195,7 @@ export default function Home() {
               priority
             />{" "}
           </li>
-          <li>
+          <li className="max-md:ml-4">
             {" "}
             <Image
               className=" cursor-pointer rounded-full"
@@ -223,7 +227,7 @@ export default function Home() {
           />{" "}
         </li>
 
-        <li>
+        <li className="max-md:mr-4">
           {" "}
           <Image
             className="cursor-pointer dark:md:hover:bg-fuchsia-600"
