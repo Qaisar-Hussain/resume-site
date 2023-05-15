@@ -37,8 +37,8 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="max-md:ml-4 mr-4">
-        <div className="max-[880px]:justify-center drop-shadow-2xl mt-12 w-3/4 bg-slate-100 ml-12 font-sans text-4xl leading-tight rounded-md border-gray-300 border-y-4 max-md:ml-1">
+      <div className="max-md:ml-4 mr-8">
+        <div className=" max-[880px]:justify-center drop-shadow-2xl mt-12 w-3/4 max-[880px]:w-full bg-slate-100 ml-12 font-sans text-4xl leading-tight rounded-md border-gray-300 border-y-4 max-md:ml-1">
           <div className="bg-slate-600 py-4 px-4  ">
             <h1 className="text-gray-400 rounded-xl">About</h1>
           </div>
@@ -78,7 +78,7 @@ export default function Home() {
               />{" "}
             </Link>{" "}
           </li>
-          <li>
+          <li className="ml-4">
             {" "}
             <Link href="https://twitter.com/QaisarH65015958?t=PtYCslb_LucxFlBlYqwNfg&s=09">
               <Image
@@ -120,11 +120,11 @@ export default function Home() {
           </li>{" "}
         </ul>
 
-        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-4 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
+        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-1 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
           <div className="bg-slate-600 flex items-center justify-center ">
             <h2 className="text-gray-400 rounded-xl text-4xl"> Brief</h2> <br />
           </div>
-          <div className="py-4 px-4 max-[570px]:text-2xl max-[570px]:m-4 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100">
+          <div className="py-4 px-6 max-[570px]:text-2xl max-[570px]:m-1 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100 w-full">
           &nbsp;&nbsp;&nbsp;&nbsp; Hello, my name is Qaisar and I am a full-stack
             <strong> Blockchain</strong> developer. <br /> I am passionate about using
             my coding skills to solve complex problems and create innovative
@@ -330,7 +330,7 @@ export default function Home() {
 
       <div className="bg-current mt-16">
         <footer className="flex justify-center">
-          <p className="text-slate-100 text-2xl leading-7 py-10">
+          <p className="text-slate-100 text-2xl leading-7 py-10 max-md:ml-4">
             Copyright &copy; 2023 All Rights Reserved by &nbsp;
             <Link href=""> qaisarhussain.com</Link>
           </p>
