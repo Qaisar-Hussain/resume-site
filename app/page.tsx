@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         <div className="flex mt-12 justify-center bg-slate-600 py-4 px-4">
-          <h2 className="text-gray-400  rounded-xl text-4xl">Social</h2>
+          <h2 className="text-gray-400  rounded-xl text-4xl">Sccocial</h2>
         </div>
 
         <ul className="flex py-8 mt-4  justify-evenly">
@@ -145,7 +145,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="flex justify-center bg-slate-600 py-4 px-4">
+        <div className="flex justify-center bg-slate-600 py-4 px-4 mt-12">
           <h2 className="text-gray-400 rounded-xl text-4xl">Languages</h2>
         </div>
         <br />
