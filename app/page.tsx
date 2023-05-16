@@ -332,7 +332,7 @@ export default function Home() {
         <footer className="flex justify-center">
           <p className="text-slate-100 text-2xl leading-7 py-10 max-md:ml-4">
             Copyright &copy; 2023 All Rights Reserved by &nbsp;
-            <Link href=""> qaisarhussain.com</Link>
+            <Link href=""> qaisarhussain.bio</Link>
           </p>
         </footer>
       </div>
