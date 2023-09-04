@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Qaisar_Hussain',
+  title: 'Qaisar-Hussain',
   description: 'Resume Site Of Mr. Qaisar Hussain',
 }
 
