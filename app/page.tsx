@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <>
    
-      <div className="verflow-visible bg-contain bg-center h-128 rounded-md border-y-4  border-grey-600 max-md:h-32">
+      <div className="overflow-visible bg-contain bg-center h-128 rounded-md border-y-4  border-grey-600 max-md:h-32">
+        {/* background image */}
         <Image
           className="h-full w-full max-md:h-32"
           src="/background.jpg"
@@ -24,7 +25,8 @@ export default function Home() {
           priority
         />
       </div>
-      <div className=" max-md:ml-1 -mt-44 verflow-visible ml-12 flex items-center justify-start rounded-lg max-[880px]:flex-col max-[880px]:-mt-16 ">
+      <div className=" max-md:ml-1 -mt-44 overflow-visible ml-12 flex items-center justify-start rounded-lg max-[1180px]:flex-col max-[880px]:-mt-16 ">
+        {/* dp */}
         <Image
           className="rounded-full z-10 max-md:h-48 max-md:w-48" // h-full w-full max-md:h-12 max-md:w-34 " 
           src="/dp.jpeg"
@@ -33,7 +35,7 @@ export default function Home() {
           height={550}
           priority
         />
-        <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl leading-tight text-sky-700 border-r-4 bg-slate-100 md:max-xl:text-2xl md:max-lg:text-xl  max-[730px]:text-xs max-[570px]:text-2xl ">
+        <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qaisar Hussain <br />
           <p className="text-sky-300 text-5xl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Developer</p>
         </h2>

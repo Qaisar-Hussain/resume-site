@@ -14,29 +14,29 @@ export default function Icons() {
       <IconContext.Provider
         value={{ color: "gray", className: " w-20 h-32 mx-16" }}
       >
-        <div className="allIcons flex justify-center mt-12">
+        <div className="allIcons flex flex-wrap justify-center mt-12  border-2 border-red-400">
           <div>
             {" "}
             <Link href="https://www.linkedin.com/in/qaisar-hussain-789317229/">
-              <LiaLinkedinIn />
+              <LiaLinkedinIn className=" max-[1180px]:w-16  max-[1180px]:h-24 max-md:w-10 max-md:h-16"/>
             </Link>
           </div>
           <div>
             {" "}
             <Link href="/https://facebook.com">
-              <LiaFacebook />
+              <LiaFacebook className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
             </Link>
           </div>
           <div>
             {" "}
             <Link href="https://twitter.com/QaisarH65015958?t=PtYCslb_LucxFlBlYqwNfg&s=09">
-              <LiaTwitter />
+              <LiaTwitter className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
             </Link>
           </div>
           <div>
             {" "}
             <Link href="https://github.com/Qaisar-Hussain">
-              <LiaGithub />
+              <LiaGithub className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
             </Link>
           </div>
         </div>
