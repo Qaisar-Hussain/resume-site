@@ -14,7 +14,7 @@ export default function Icons() {
       <IconContext.Provider
         value={{ color: "gray", className: " w-20 h-32 mx-16" }}
       >
-        <div className="allIcons flex flex-wrap justify-center mt-12  border-2 border-red-400">
+        <div className="allIcons flex flex-wrap justify-center mt-12 gap-4">
           <div>
             {" "}
             <Link href="https://www.linkedin.com/in/qaisar-hussain-789317229/">

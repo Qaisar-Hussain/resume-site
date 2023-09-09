@@ -35,9 +35,13 @@ export default function Home() {
           height={550}
           priority
         />
-        <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
+        {/* <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl max-sm:text-3xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qaisar Hussain <br />
-          <p className="text-sky-300 text-5xl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Developer</p>
+          <p className="text-sky-300 text-5xl max-sm:text-3xl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Developer</p>
+        </h2> */}
+        <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl max-sm:text-3xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
+          Qaisar Hussain 
+          <h3 className="text-sky-300 text-5xl max-sm:text-3xl">Web Developer</h3>
         </h2>
       </div>
       <Icons/>
