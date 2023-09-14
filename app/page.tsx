@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Icons from "./components/Icons";
+import About from "./components/About";
+import Welcome from "./components/Welcome";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,10 +41,13 @@ export default function Home() {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qaisar Hussain <br />
           <p className="text-sky-300 text-5xl max-sm:text-3xl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Developer</p>
         </h2> */}
-        <h2 className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl max-sm:text-3xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
+        <div className="drop-shadow-2xl rounded-md -ml-4 px-12 border-y-4 border-gray-600ml-12 font-sans text-6xl max-sm:text-3xl leading-tight text-sky-700 border-r-4 bg-slate-100  max-[1180px]:mt-6 ">
           Qaisar Hussain 
           <h3 className="text-sky-300 text-5xl max-sm:text-3xl">Web Developer</h3>
-        </h2>
+        </div>
+      </div>
+      <div className="flex justify-center  mt-4">
+      <Welcome/>
       </div>
       <Icons/>
 
@@ -51,7 +56,7 @@ export default function Home() {
 
         <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-1 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
           <div className="bg-slate-600 flex items-center justify-center ">
-            <h2 className="text-gray-400 rounded-xl text-4xl"> Brief</h2> <br />
+            <h2 className="text-gray-400 rounded-xl text-4xl"> Introduction</h2> <br />
           </div>
           <div className="py-4 px-6 max-[570px]:text-2xl max-[570px]:m-1 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100 w-full">
           &nbsp;&nbsp;&nbsp;&nbsp; Hello, my name is Qaisar and I am a 

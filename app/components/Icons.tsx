@@ -23,7 +23,7 @@ export default function Icons() {
           </div>
           <div>
             {" "}
-            <Link href="/https://facebook.com">
+            <Link href="https://web.facebook.com/qaisar.hussain.1481">
               <LiaFacebook className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
             </Link>
           </div>
