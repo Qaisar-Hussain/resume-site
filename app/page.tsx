@@ -16,16 +16,28 @@ export default function Home() {
   return (
     <>
    
-      <div className="overflow-visible bg-contain bg-center h-128 rounded-md border-y-4  border-grey-600 max-md:h-32">
+      {/* <div className="overflow-visible bg-contain bg-center h-128 rounded-md border-y-4  border-grey-600 max-md:h-32"> */}
+      <div className="overflow-visible bg-contain bg-center  rounded-md border-y-4  border-grey-600 max-md:h-32 h-80">
         {/* background image */}
         <Image
-          className="h-full w-full max-md:h-32"
+          className="h-80 w-full max-md:h-32"
           src="/background.jpg"
           alt="Vercel Logo"
           width={1800}
           height={10}
           priority
         />
+         {/* <Image
+          className="absolute inset-0 object-cover w-full h-80"
+          src="/background.jpg"
+          alt="Vercel Logo"
+          width={1800}
+          height={10}
+          priority
+        /> */}
+        {/* <div className="flex justify-center  -mt-40">
+      <Welcome/>
+      </div> */}
       </div>
       <div className=" max-md:ml-1 -mt-44 overflow-visible ml-12 flex items-center justify-start rounded-lg max-[1180px]:flex-col max-[880px]:-mt-16 ">
         {/* dp */}
@@ -164,7 +176,7 @@ export default function Home() {
         <li className="max-md:mr-4">
           {" "}
           <Image
-            className="cursor-pointer dark:md:hover:bg-fuchsia-600"
+            className="cursor-pointer" 
             src="/react2.png"
             alt="Vercel Logo"
             width={200}
