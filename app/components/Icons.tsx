@@ -12,33 +12,31 @@ export default function Icons() {
   return (
     <>
       <IconContext.Provider
-        value={{ color: "gray", className: " w-20 h-32 mx-16" }}
+        // value={{ color: "gray", className: " w-20 h-32 mx-16" }}
+        value={{ color: "gray", className: " w-20 h-32 mx-16"}}
       >
-        <div className="allIcons flex flex-wrap justify-center mt-12 gap-4">
-          <div>
-            {" "}
+        {/* <div className="allIcons flex flex-wrap justify-center mt-12 gap-4"> */}
+        <div className="allIcons flex flex-wrap justify-center mt-12 mx-0  max-md:gap-x-0">
+          {/* <div className="border-2 border-black"> */}
             <Link href="https://www.linkedin.com/in/qaisar-hussain-789317229/">
-              <LiaLinkedinIn className=" max-[1180px]:w-16  max-[1180px]:h-24 max-md:w-10 max-md:h-16"/>
+              <LiaLinkedinIn className=" max-[1180px]:w-16  max-[1180px]:h-24 max-md:w-10 max-md:h-16  max-md:mx-4 max-md:my-4"  />
             </Link>
-          </div>
-          <div>
-            {" "}
+          {/* </div> */}
+          {/* <div className="border-2 border-black"> */}
             <Link href="https://web.facebook.com/qaisar.hussain.1481">
-              <LiaFacebook className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
+              <LiaFacebook className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16 max-md:mx-4 max-md:my-4" />
             </Link>
-          </div>
-          <div>
-            {" "}
+          {/* </div> */}
+          {/* <div className="border-2 border-black"> */}
             <Link href="https://twitter.com/QaisarH65015958?t=PtYCslb_LucxFlBlYqwNfg&s=09">
-              <LiaTwitter className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
+              <LiaTwitter className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16 max-md:mx-4 max-md:my-4" />
             </Link>
-          </div>
-          <div>
-            {" "}
+          {/* </div> */}
+          {/* <div className="border-2 border-black"> */}
             <Link href="https://github.com/Qaisar-Hussain">
-              <LiaGithub className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16"/>
+              <LiaGithub className=" max-[1180px]:w-16  max-[1180px]:h-24  max-md:w-10 max-md:h-16 max-md:mx-4 max-md:my-4" />
             </Link>
-          </div>
+          {/* </div> */}
         </div>
       </IconContext.Provider>
     </>

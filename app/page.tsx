@@ -58,19 +58,20 @@ export default function Home() {
           <h3 className="text-sky-300 text-5xl max-sm:text-3xl">Web Developer</h3>
         </div>
       </div>
-      <div className="flex justify-center  mt-4">
+      <div className="flex justify-center  mt-4 max-md:mx-0">
       <Welcome/>
       </div>
       <Icons/>
 
-      <div className="max-md:ml-4 mr-8 flex justify-center">
+      <div className="mr-8 flex justify-center max-md:mx-0">
        
 
-        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100  max-md:ml-1 max-md:w-fit text-3xl m-1 w-3/4 leading-tight rounded-md border-gray-300 border-y-4">
+        <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100 text-3xl m-1 w-3/4 leading-tight rounded-md border-gray-300 border-y-4 max-md:w-full max-md:mx-0 border-2">
           <div className="bg-slate-600 flex items-center justify-center ">
             <h2 className="text-gray-400 rounded-xl text-4xl"> Introduction</h2> <br />
           </div>
-          <div className="py-4 px-6 max-[570px]:text-2xl max-[570px]:m-1 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100 w-full">
+          {/* <div className="py-4 px-6 max-[570px]:text-2xl max-[570px]:m-1 max-[570px]:px-0 max-[570px]:mx-0  max-[570px]:bg-slate-100 w-full"> */}
+          <div className="py-4 px-6 max-[570px]:text-2xl max-[570px]:m-1 max-[570px]:px-6 max-[570px]:mx-0  max-[570px]:bg-slate-100 w-full ">
           &nbsp;&nbsp;&nbsp;&nbsp; Hello, my name is Qaisar and I am a 
             <strong> Full-Stack Web </strong> developer. <br /> I am passionate about using
             my coding skills to solve complex problems and create innovative
