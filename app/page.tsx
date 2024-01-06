@@ -6,6 +6,7 @@ import Link from "next/link";
 import Icons from "./components/Icons";
 import About from "./components/About";
 import Welcome from "./components/Welcome";
+import Projects from "./components/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
+
+  const currentYear: number = new Date().getFullYear();
+  console.log(currentYear);
+  
+
   return (
     <>
    
@@ -62,9 +68,10 @@ export default function Home() {
       <Welcome/>
       </div>
       <Icons/>
-
+      {/* <Projects/> */}
+      {/* i have not pushed this section projects yet as it is incomplete as of 3 dec 2023 */}
       <div className="mr-8 flex justify-center max-md:mx-0">
-       
+      
 
         <div className="max-[880px]:justify-center text-sky-400 drop-shadow-2xl mt-12 bg-slate-100 text-3xl m-1 w-3/4 leading-tight rounded-md border-gray-300 border-y-4 max-md:w-full max-md:mx-0 border-2">
           <div className="bg-slate-600 flex items-center justify-center ">
@@ -278,7 +285,7 @@ export default function Home() {
       <div className="bg-current mt-16">
         <footer className="flex justify-center">
           <p className="text-slate-100 text-2xl leading-7 py-10 max-md:ml-4">
-            Copyright &copy; 2023 All Rights Reserved by &nbsp;
+            Copyright &copy; {currentYear} All Rights Reserved by &nbsp;
             <Link href=""> qaisarhussain.bio</Link>
           </p>
         </footer>
