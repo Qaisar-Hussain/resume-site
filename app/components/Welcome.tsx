@@ -5,7 +5,7 @@ function WelcomeComponent() {
 
   useEffect(() => {
     let arr = [
-      "","","","I"," ","W","E","L","C","O","M","E"," ","Y","O","U"," ","H","E","R","E",
+      "","","I"," ","W","E","L","C","O","M","E"," ","Y","O","U"," ","H","E","R","E",
     ];
     let count = 0;
     let num = 0;
