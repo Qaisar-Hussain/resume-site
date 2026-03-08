@@ -13,7 +13,7 @@ export default function ContactSection() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-sky-400 to-blue-500 mx-auto"></div>
           <p className="text-gray-300 text-lg mt-4">
-            Let's connect and discuss your next project
+            Let&apos;s connect and discuss your next project
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function ContactSection() {
           <div className="space-y-8">
             <h3 className="text-2xl font-bold text-white mb-6">Connect With Me</h3>
             <p className="text-gray-300 mb-6">
-              Follow me on social media or reach out directly. I'm always open to discussing new projects and opportunities.
+              Follow me on social media or reach out directly. I&apos;m always open to discussing new projects and opportunities.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">

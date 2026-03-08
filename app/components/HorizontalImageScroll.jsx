@@ -44,7 +44,12 @@ const Carousel = () => {
             className={`duration-700 ease-in-out ${index === currentSlide ? 'block' : 'hidden'}`}
             data-carousel-item
           >
-            <img src={image} className="slide-left absolute block w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={`Slide ${index + 1}`} />
+                <Image
+                  src={image}
+                  alt={`Slide ${index + 1}`}
+                  fill
+                  className="slide-left absolute block w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain"
+                />
           </div>
         ))}
       </div>

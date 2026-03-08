@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
@@ -42,7 +43,14 @@ const Carousel = () => {
     <div className="relative w-full overflow-hidden" data-carousel="slide">
       <div className="relative h-56 md:h-96">
         {images.map((image, index) => (
-          <img key={index} src={image} className={slideStyles(index)} alt={`Slide ${index + 1}`} />
+          <div key={index} className={slideStyles(index)}>
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              fill
+              className="object-contain"
+            />
+          </div>
         ))}
       </div>
       {/* Indicators and Controls omitted for brevity */}
